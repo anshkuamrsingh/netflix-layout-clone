@@ -1,0 +1,320 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/netflix-header-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.main-box-1 {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    z-index: 1; /* 🟢 Make sure this is LOW */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.logo-netflix{
+    height: 50px;
+    width: 100px;
+}
+nav img{
+    color: red;
+    height: 50px;
+    width: 140px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: 10;
+}
+.language{
+    position: absolute;
+    right: 155px;
+    top: 20px;
+    height: 32px;
+    width: 130px;
+    background-color:transparent;
+    color:#ffffff;
+    font-family: arial;
+    font-size: 1rem;
+    font-weight: 700;
+    border: .5px solid rgb(218, 191, 191);
+    border-radius: 5px;
+    z-index: 10;
+}
+.sign-in{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    height: 32px;
+    width: 80px;
+    background-color:#ff2400;
+    color:#ffffff;
+    font-family: arial;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    z-index: 10;
+}
+.near-search{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+     position: relative;
+    z-index: 10; 
+}
+
+.first-text{
+ font-size: 3.5rem;
+ z-index: 10;
+ font-weight: 600;
+ font-family:Arial, Helvetica, sans-serif;
+}
+.second-text{
+    font-size: 2rem;
+    z-index: 10;
+    font-weight: 550;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.third-text{
+    font-size: 1.5rem;
+    z-index: 10;
+    font-weight: 400;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+/* CSS (external or in <style> tag) */
+.search-box {
+    height: 60px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 1px solid rgb(197, 188, 188);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.search-box::placeholder {
+    color: rgb(180, 180, 180);
+    font-size: 1rem;
+}
+
+
+.search-box::placeholder{
+    color: rgb(205, 203, 203);
+    font-size: 1rem;
+    position: absolute;
+    left: 20px;
+}
+.Get{
+   height: 60px;
+   width: 200px;
+   background-color: red;
+   color: #ffffff;
+   position: relative;
+   font-size: 1.5rem;
+   font-weight: 500;
+   border-radius: 5px;
+   margin-top: 20px;
+}
+.separateline{
+    height: 10px;
+    background-color:rgb(102, 91, 91);
+}
+.first-section{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    max-width: 90vw;
+    margin: auto;
+    color: #ffffff;
+    align-items: center;
+}
+.fisrt-sec-text{
+    display: flex;
+    flex-direction: column;
+}
+.enjoy{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+.watch{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.sec-image{
+    position: relative;
+}
+.sec-img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+}
+.sec-video{
+    position: absolute;
+    top: 72px;
+    right: 60px;
+    width: 30vw;
+}
+.sec-video-fourth{
+    position: absolute;
+    top:35px;
+    right: 90px;
+    height: 200px;
+    width: 320px;
+
+}
+.fre-que{
+    height: 900px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top: 50px;
+}
+.box1{
+    height: 80px;
+    background-color: rgb(74, 66, 66);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.fre-paragrap{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.footer{
+    height: 300px;
+    display: flex;
+   justify-content:space-around;
+
+}
+.footer-div1{
+    color: #c8bbbb;
+    display: flex;
+    flex-direction:column;
+    margin-top: 40px;
+}
+.footer-div1 a{
+ color:  #c8bbbb;
+ padding-top: 15px;
+}
+.footer-div1 p{
+    padding-top: 15px;
+}
+.box1:hover{
+    background-color: rgb(108, 108, 105);
+    
+}
+.footer-button{
+    height: 32px;
+    width: 130px;
+    background-color:transparent;
+    color:#ffffff;
+    font-family: arial;
+    font-size: 1rem;
+    font-weight: 700;
+    border: .5px solid rgb(218, 191, 191);
+    border-radius: 5px;
+    z-index: 10;
+    margin-top: 15px;
+}
+
+/* responsive design code */
+
+
+    /* responsive.css */
+
+@media (max-width: 1024px) {
+    .first-text {
+        font-size: 2.5rem;
+    }
+    .second-text,
+    .third-text {
+        font-size: 1.2rem;
+    }
+    .search {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .search-box,
+    .Get {
+        width: 90%;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+    nav img {
+        position: static;
+        width: 120px;
+    }
+    .language,
+    .sign-in {
+        position: static;
+        margin: 5px;
+    }
+    .first-text {
+        font-size: 2rem;
+    }
+    .second-text,
+    .third-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .first-text {
+        font-size: 1.5rem;
+    }
+    .second-text,
+    .third-text {
+        font-size: 0.9rem;
+    }
+    .search-box,
+    .Get {
+        width: 100%;
+    }
+}
